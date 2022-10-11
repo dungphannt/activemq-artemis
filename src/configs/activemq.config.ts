@@ -36,9 +36,7 @@ export const connect = async (): Promise<Client> => {
 export const close = (connectionType: CONNECTION_TYPE, client: Client) => {
   switch (connectionType) {
     case CONNECTION_TYPE.ONCE:
-      client.disconnect(() => {
-        console.log('disconnected')
-      })
+      client.disconnect(() => {})
       break
     case CONNECTION_TYPE.KEEP:
       break

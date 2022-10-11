@@ -6,7 +6,8 @@
   "author": "dungphannt <dungphanx@nashtechglobal.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "despatch": "ts-node src/despatch.ts"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.186",
